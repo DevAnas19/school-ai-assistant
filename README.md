@@ -3,35 +3,7 @@
 An AI-powered School ERP Assistant that understands natural language queries, plans tool execution, fetches data from ERP modules, and responds intelligently using **FastAPI + Groq (LLaMA 3.3 70B)**.
 
 ## 🏗️ Architecture
-
-```
-User Query
-    │
-    ▼
-POST /chat (FastAPI)
-    │
-    ▼
-Chat Service
-    │  ├── Conversation Memory (in-memory, per session)
-    │  └── Logger (JSON lines → logs/)
-    │
-    ▼
-ERP Agent (Groq LLaMA 3.3 70B)
-    │
-    ├── Step 1: Send user message + history → LLM decides which tool(s) to call
-    │
-    ├── Step 2: Execute ERP tools (function calling)
-    │     ├── get_attendance  → mock_data/attendance.json
-    │     ├── get_marks       → mock_data/marks.json
-    │     ├── get_fees        → mock_data/fees.json
-    │     ├── get_homework    → mock_data/homework.json
-    │     └── get_timetable   → mock_data/timetable.json
-    │
-    └── Step 3: LLM generates natural language response from tool results
-    │
-    ▼
-Structured JSON Response
-```
+![Architecture Diagram](architecture.png)
 
 ## 📁 Project Structure
 
