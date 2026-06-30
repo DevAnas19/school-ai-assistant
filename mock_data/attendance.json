@@ -1,0 +1,26 @@
+{
+  "student_id": "STU001",
+  "name": "Anas Khan",
+  "class": "10-A",
+  "academic_year": "2025-26",
+  "total_working_days": 120,
+  "days_present": 110,
+  "days_absent": 10,
+  "attendance_percentage": 91.67,
+  "monthly": {
+    "January": { "total": 22, "present": 20, "absent": 2, "percentage": 90.9 },
+    "February": { "total": 20, "present": 19, "absent": 1, "percentage": 95.0 },
+    "March": { "total": 23, "present": 21, "absent": 2, "percentage": 91.3 },
+    "April": { "total": 22, "present": 20, "absent": 2, "percentage": 90.9 },
+    "May": { "total": 21, "present": 19, "absent": 2, "percentage": 90.5 },
+    "June": { "total": 12, "present": 11, "absent": 1, "percentage": 91.7 }
+  },
+  "absent_dates": [
+    "2026-01-08", "2026-01-15",
+    "2026-02-12",
+    "2026-03-05", "2026-03-20",
+    "2026-04-03", "2026-04-18",
+    "2026-05-07", "2026-05-22",
+    "2026-06-10"
+  ]
+}

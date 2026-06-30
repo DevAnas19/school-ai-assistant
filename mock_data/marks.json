@@ -1,0 +1,105 @@
+{
+  "student_id": "STU001",
+  "name": "Anas Khan",
+  "class": "10-A",
+  "academic_year": "2025-26",
+  "semester": "Semester 1",
+  "subjects": [
+    {
+      "subject": "Mathematics",
+      "code": "MATH101",
+      "teacher": "Mr. Sharma",
+      "max_marks": 100,
+      "obtained_marks": 88,
+      "grade": "A",
+      "percentage": 88.0,
+      "exams": {
+        "Unit Test 1": 42,
+        "Unit Test 2": 45,
+        "Mid Term": 82,
+        "Final": 88
+      }
+    },
+    {
+      "subject": "Science",
+      "code": "SCI101",
+      "teacher": "Ms. Patel",
+      "max_marks": 100,
+      "obtained_marks": 76,
+      "grade": "B+",
+      "percentage": 76.0,
+      "exams": {
+        "Unit Test 1": 35,
+        "Unit Test 2": 38,
+        "Mid Term": 71,
+        "Final": 76
+      }
+    },
+    {
+      "subject": "English",
+      "code": "ENG101",
+      "teacher": "Mrs. Kapoor",
+      "max_marks": 100,
+      "obtained_marks": 91,
+      "grade": "A+",
+      "percentage": 91.0,
+      "exams": {
+        "Unit Test 1": 44,
+        "Unit Test 2": 46,
+        "Mid Term": 88,
+        "Final": 91
+      }
+    },
+    {
+      "subject": "Social Science",
+      "code": "SST101",
+      "teacher": "Mr. Verma",
+      "max_marks": 100,
+      "obtained_marks": 69,
+      "grade": "B",
+      "percentage": 69.0,
+      "exams": {
+        "Unit Test 1": 32,
+        "Unit Test 2": 34,
+        "Mid Term": 63,
+        "Final": 69
+      }
+    },
+    {
+      "subject": "Hindi",
+      "code": "HIN101",
+      "teacher": "Ms. Gupta",
+      "max_marks": 100,
+      "obtained_marks": 82,
+      "grade": "A",
+      "percentage": 82.0,
+      "exams": {
+        "Unit Test 1": 40,
+        "Unit Test 2": 42,
+        "Mid Term": 78,
+        "Final": 82
+      }
+    },
+    {
+      "subject": "Computer Science",
+      "code": "CS101",
+      "teacher": "Mr. Mehta",
+      "max_marks": 100,
+      "obtained_marks": 95,
+      "grade": "A+",
+      "percentage": 95.0,
+      "exams": {
+        "Unit Test 1": 47,
+        "Unit Test 2": 48,
+        "Mid Term": 92,
+        "Final": 95
+      }
+    }
+  ],
+  "total_marks": 501,
+  "max_total_marks": 600,
+  "overall_percentage": 83.5,
+  "overall_grade": "A",
+  "class_rank": 5,
+  "total_students": 35
+}

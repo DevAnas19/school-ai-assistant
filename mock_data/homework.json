@@ -1,0 +1,83 @@
+{
+  "student_id": "STU001",
+  "class": "10-A",
+  "homework": [
+    {
+      "id": "HW001",
+      "subject": "Mathematics",
+      "teacher": "Mr. Sharma",
+      "title": "Quadratic Equations Practice",
+      "description": "Solve exercises 4.1 to 4.5 from NCERT Chapter 4. Show all steps.",
+      "assigned_date": "2026-06-25",
+      "due_date": "2026-06-30",
+      "status": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": "HW002",
+      "subject": "Science",
+      "teacher": "Ms. Patel",
+      "title": "Electricity Chapter Notes",
+      "description": "Make notes on Chapter 12 - Electricity. Include diagrams for series and parallel circuits.",
+      "assigned_date": "2026-06-24",
+      "due_date": "2026-06-29",
+      "status": "Pending",
+      "priority": "High"
+    },
+    {
+      "id": "HW003",
+      "subject": "English",
+      "teacher": "Mrs. Kapoor",
+      "title": "Essay Writing",
+      "description": "Write a 500-word essay on 'The Importance of Digital Literacy in Modern Education'.",
+      "assigned_date": "2026-06-23",
+      "due_date": "2026-07-01",
+      "status": "Pending",
+      "priority": "Medium"
+    },
+    {
+      "id": "HW004",
+      "subject": "Social Science",
+      "teacher": "Mr. Verma",
+      "title": "Map Work - Indian Rivers",
+      "description": "Mark and label major rivers of India on an outline map. Include tributaries.",
+      "assigned_date": "2026-06-22",
+      "due_date": "2026-06-28",
+      "status": "Overdue",
+      "priority": "High"
+    },
+    {
+      "id": "HW005",
+      "subject": "Computer Science",
+      "teacher": "Mr. Mehta",
+      "title": "Python Functions Assignment",
+      "description": "Write Python programs for: 1) Factorial using recursion 2) Fibonacci series 3) Palindrome check.",
+      "assigned_date": "2026-06-26",
+      "due_date": "2026-07-03",
+      "status": "Pending",
+      "priority": "Medium"
+    },
+    {
+      "id": "HW006",
+      "subject": "Hindi",
+      "teacher": "Ms. Gupta",
+      "title": "कविता पाठ",
+      "description": "पाठ्यपुस्तक से 'कबीर की साखियाँ' कविता याद करें और उसका अर्थ लिखें।",
+      "assigned_date": "2026-06-20",
+      "due_date": "2026-06-27",
+      "status": "Completed",
+      "priority": "Low"
+    },
+    {
+      "id": "HW007",
+      "subject": "Mathematics",
+      "teacher": "Mr. Sharma",
+      "title": "Arithmetic Progression",
+      "description": "Complete worksheet on AP - finding nth term and sum of n terms.",
+      "assigned_date": "2026-06-18",
+      "due_date": "2026-06-25",
+      "status": "Completed",
+      "priority": "Medium"
+    }
+  ]
+}

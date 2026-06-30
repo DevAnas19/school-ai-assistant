@@ -1,0 +1,68 @@
+{
+  "student_id": "STU001",
+  "name": "Anas Khan",
+  "class": "10-A",
+  "academic_year": "2025-26",
+  "total_annual_fee": 85000,
+  "total_paid": 60000,
+  "total_pending": 25000,
+  "fee_structure": [
+    { "category": "Tuition Fee", "amount": 60000, "paid": 45000, "pending": 15000 },
+    { "category": "Sports Fee", "amount": 5000, "paid": 5000, "pending": 0 },
+    { "category": "Lab Fee", "amount": 8000, "paid": 8000, "pending": 0 },
+    { "category": "Library Fee", "amount": 2000, "paid": 2000, "pending": 0 },
+    { "category": "Exam Fee", "amount": 10000, "paid": 0, "pending": 10000 }
+  ],
+  "payment_history": [
+    {
+      "transaction_id": "TXN001",
+      "date": "2025-06-05",
+      "amount": 20000,
+      "category": "Tuition Fee",
+      "mode": "Online Transfer",
+      "status": "Paid",
+      "receipt": "REC-2025-001"
+    },
+    {
+      "transaction_id": "TXN002",
+      "date": "2025-08-10",
+      "amount": 13000,
+      "category": "Tuition Fee + Sports + Lab + Library",
+      "mode": "Cheque",
+      "status": "Paid",
+      "receipt": "REC-2025-002"
+    },
+    {
+      "transaction_id": "TXN003",
+      "date": "2025-12-01",
+      "amount": 12000,
+      "category": "Tuition Fee",
+      "mode": "UPI",
+      "status": "Paid",
+      "receipt": "REC-2025-003"
+    },
+    {
+      "transaction_id": "TXN004",
+      "date": "2026-03-15",
+      "amount": 15000,
+      "category": "Tuition Fee",
+      "mode": "Online Transfer",
+      "status": "Paid",
+      "receipt": "REC-2026-001"
+    }
+  ],
+  "upcoming_dues": [
+    {
+      "due_date": "2026-07-01",
+      "amount": 15000,
+      "category": "Tuition Fee",
+      "status": "Pending"
+    },
+    {
+      "due_date": "2026-07-15",
+      "amount": 10000,
+      "category": "Exam Fee",
+      "status": "Pending"
+    }
+  ]
+}
